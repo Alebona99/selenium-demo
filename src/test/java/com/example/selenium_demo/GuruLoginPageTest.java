@@ -45,21 +45,4 @@ public class GuruLoginPageTest {
     Assertions.assertTrue(webDriver.getPageSource().contains("Successfully Logged in..."));
   }
 
-/*
-  @Test
-  public void toolsMenu() {
-    mainPage.toolsMenu.hover();
-
-    $(".menu-main__popup-wrapper").shouldBe(visible);
-  }
-
-  @Test
-  public void navigationToAllTools() {
-    mainPage.seeAllToolsButton.click();
-
-    $(".products-list").shouldBe(visible);
-
-    assertEquals("All Developer Tools and Products by JetBrains", Selenide.title());
-  }
-*/
 }
